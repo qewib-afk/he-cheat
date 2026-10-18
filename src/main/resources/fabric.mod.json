@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "hecheat",
+  "version": "${version}",
+  "name": "He Cheat",
+  "description": "client-side cheat mod",
+  "authors": ["He"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.he.cheat.CheatClient"] },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
